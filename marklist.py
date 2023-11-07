@@ -1,0 +1,17 @@
+# mark list
+mark_list = ["nike" , "adidas" , "balenciaga", "northface" , "salomon" , "asics"]
+print(mark_list[+3])
+print(mark_list[+2])
+print(mark_list[+1])
+print(mark_list[-0])
+print(mark_list[-2])
+print(mark_list[-5])
+mark_list.remove("asics")
+print(mark_list)
+mark_list.extend("nike")
+print(mark_list)
+mark_list.append("yeezy")
+print(mark_list)
+mark_list.insert(6 , "northface")
+print(mark_list)
+print(len(mark_list))

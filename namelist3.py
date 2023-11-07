@@ -1,0 +1,17 @@
+#name list 3
+name_list3 = ["hosein" , "ali" , "sajad" , "farshad" , "nima" , "javvad"]
+print(name_list3[+2])
+print(name_list3[+4])
+print(name_list3[+3])
+print(name_list3[-1])
+print(name_list3[-4])
+print(name_list3[-5])
+name_list3.remove("hosein")
+print(name_list3)
+name_list3.append("mamad")
+print(name_list3)
+name_list3.extend("javvad")
+print(name_list3)
+name_list3.insert(2 , "javvad")
+print(name_list3)
+print(len(name_list3))

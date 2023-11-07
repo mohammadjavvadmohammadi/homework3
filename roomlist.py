@@ -1,0 +1,17 @@
+#room list
+room_list = ["room 1" , "room 2" , "room 3" , "room 4" , "room 5" , "room 6"]
+print(room_list[-1])
+print(room_list[-3])
+print(room_list[-4])
+print(room_list[+2])
+print(room_list[+4])
+print(room_list[+5])
+room_list.append("room 12")
+print(room_list)
+room_list.remove("room 2")
+print(room_list)
+room_list.extend("room 12")
+print(room_list)
+room_list.insert(2 , "room 0")
+print(room_list)
+print(len(room_list))

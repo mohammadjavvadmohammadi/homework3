@@ -1,0 +1,17 @@
+# movie list
+movie_list = ["coda" , "thing" , "shining" , "jahan ba man beraghs" , "inseption" , "titanic"]
+print(movie_list[-3])
+print(movie_list[-2])
+print(movie_list[-0])
+print(movie_list[+2])
+print(movie_list[+5])
+print(movie_list[+4])
+movie_list.append("mancheste by the sea")
+print(movie_list)
+movie_list.remove("coda")
+print(movie_list)
+movie_list.extend("jahan ba man beraghs")
+print(movie_list)
+movie_list.insert(4 , "shining")
+print(movie_list)
+print(len(movie_list))

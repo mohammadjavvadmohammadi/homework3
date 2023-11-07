@@ -1,0 +1,17 @@
+# team list
+team_list = ["liverpol" , "manchester city" , "chelsi" , "fulam" , "arsenal" , "dortmound"]
+print(team_list[+1])
+print(team_list[+3])
+print(team_list[+5])
+print(team_list[-4])
+print(team_list[-2])
+print(team_list[-0])
+team_list.append("lion")
+print(team_list)
+team_list.remove("fulam")
+print(team_list)
+team_list.extend("arsenal")
+print(team_list)
+team_list.insert(6 , "manchester city")
+print(team_list)
+print(len(team_list))

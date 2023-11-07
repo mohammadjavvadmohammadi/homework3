@@ -1,0 +1,15 @@
+
+animal_list2 = ["goat" , "elephent" , "cat" , "Dunki" , "Monkey" , "Dog"]
+print(animal_list2[-6])
+print(animal_list2[-5])
+print(animal_list2[-4])
+print(animal_list2[+1])
+print(animal_list2[+2])
+print(animal_list2[+3])
+animal_list2.append("cow")
+print(animal_list2)
+animal_list2.insert(7 , "goat")
+print(animal_list2)
+animal_list2.extend("goat")
+print(animal_list2)
+print(len(animal_list2))

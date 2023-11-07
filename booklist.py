@@ -1,0 +1,17 @@
+#book list
+book_list = ["vaghti neitche gerist" , "koori" , "kimiagar" , "1984" , "bishoury" , "chenin goft zartosht"]
+print(book_list[+4])
+print(book_list[+5])
+print(book_list[+3])
+print(book_list[-3])
+print(book_list[+2])
+print(book_list[+1])
+book_list.remove("koori")
+print(book_list)
+book_list.append("koori")
+print(book_list)
+book_list.insert(6 , "harry poter")
+print(book_list)
+book_list.extend("bigane")
+print(book_list)
+print(len(book_list))
