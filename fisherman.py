@@ -11,17 +11,29 @@ if price > 8:
        print("Good job man!" , 
               weight_pounds , "The amount of pounds you gained is great." , 
              "Yor gift is a hook")
+       #The final price
+       print("the price of your fish $",price)
+
 elif price == 2 :
        print("Not bad " , weight_pounds , "This is uor pounds" , "Keep working")
 else :
-       print("Sorry man,", weight_pounds,"Pounds not enough.", "You should be fired.","Try again.")
-       #Try agian
+       print("Sorry man,", weight_pounds,"Pounds not enough.", "You should be fired.")
        print("the price of your fish $",price)
+       print("try again")
+       #Try agian
        weight_pounds =float(input("How many pounds of fish did you catch man?"))
        weight_kms = weight_pounds * 0.4536
        price = weight_kms * 2
-#The final price
+       if price > 8:
+        print("Good job man!" , 
+              weight_pounds , "The amount of pounds you gained is great." , 
+             "Yor gift is a hook")
+        #the final price
        print("the price of your fish $",price)
+
+       
+
+
 
 
 
