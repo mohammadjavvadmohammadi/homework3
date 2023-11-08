@@ -14,6 +14,8 @@ name_list2.remove("ali")
 print(name_list2)
 name_list2.insert(3 , "mamad")
 print(name_list2)
+name_list2.pop(4)
+print(name_list2)
 print(len(name_list2))
 
 
