@@ -13,5 +13,7 @@ print(name_list1[-6])
 name_list1.insert(7 , "reza")
 print(name_list1)
 name_list1.extend("ali")
+name_list.pop(3)
+print(name_list1)
 print(name_list1)
 
